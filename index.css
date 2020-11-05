@@ -176,11 +176,15 @@ body {
        
     }
 }
+
+@media screen and (max-width: 405px) {
+.header__name {
+    font-size: 10px;
+}
+}
+
 @media screen and (max-width: 375px) {
-    .header__name {
-       
-        font-size: 10px;
-    }
+    
     .header__search {
         margin-left: 10px;
     }
