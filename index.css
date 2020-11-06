@@ -1,5 +1,7 @@
 @import url(./blocks/header/header.css);
 @import url(./blocks/footer/footer.css);
+@import url(./styles/normalize.css);
+
 body, img, h2, div, nav, li{
     border: 2px solid red;
 }
@@ -16,7 +18,17 @@ body {
 
 
 
-
+.header-nn {
+    background-color: #E5E5E5;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
 /* .header__burger {
     display: none;
 }
@@ -34,7 +46,7 @@ body {
 .header__menu_name-button {
     border: none;
     background-color: initial;
-    margin-left: -18px;
+    
 
 }
 .header__menu_name-headman {
@@ -46,10 +58,8 @@ body {
 .header__names {
     background-color:  #0080C8;
     height: 45px;
-  
     width: 15%;
     border-radius: 20px;
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,16 +73,18 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 61px;
-    padding: 0px 120px 0px 120px;
-    /* padding:20px 0px 20px 0px ; */
+    width: 80%;
+    margin: 0 auto;
 }
 .footer__name_law {
     font-size: 12px;
     margin-left: 120px;
 }
 .footer__name_help {
-    font-size: 8px;
-    line-height: 0.5;
+    font-size: 10px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__line_name {
@@ -82,6 +94,9 @@ body {
 .header__menu {
     display: flex;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    background:white;
 }
 .header__menu_headman {
    background-color: #0080C8;
@@ -89,7 +104,7 @@ body {
    width: 25%;
    border-radius: 0px 0px 50px 0px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .header__menu_line-up {
@@ -107,7 +122,6 @@ body {
     border-radius: 0px 0px 0px 50px;
 }
 .header__link {
-    list-style: none;
     text-decoration: none;
     color: white;
  
@@ -115,7 +129,7 @@ body {
 .header__links {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer__lines {
     display: flex;
