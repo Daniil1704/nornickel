@@ -1,0 +1,15 @@
+@import url(./__search/header__search.css);
+@import url(./__name/header__name.css);
+@import url(./__logo/header__logo.css);
+.header {
+    background-color: #E5E5E5;
+
+    padding-top: 23px;
+   padding-bottom: 23px;
+   
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    padding: 18px 120px 19px 120px;
+}

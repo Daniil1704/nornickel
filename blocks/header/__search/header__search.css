@@ -1,0 +1,7 @@
+@import url(./_input/header__search_input.css);
+
+.header__search {
+    margin-left: 47px;
+    margin-right: 47px;
+    width: 70%;
+}

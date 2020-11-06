@@ -1,0 +1,10 @@
+.header__search_input {
+    background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center; 
+    background-color: #fff;
+    border: solid 1px #0077C8;
+    padding: 9px 10px 9px 38px;
+    height: 25px;
+    border-radius: 50px;
+    width: 93%;
+  
+}
