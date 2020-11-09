@@ -1,0 +1,11 @@
+.header__names {
+    background-color:  #0080C8;
+    height: 45px;
+    width: 15%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}

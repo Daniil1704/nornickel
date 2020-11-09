@@ -1,0 +1,10 @@
+.header__burger_button {
+    background-image: url(../../../../img/burger.png);
+    background-color: initial;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    max-width: 45px;
+    width: 100vh;
+    height: 30px;
+}
