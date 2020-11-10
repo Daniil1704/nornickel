@@ -1,8 +1,5 @@
 .header__menu_line-up {
     position: relative;
-    background-color: #0080C8;
-    height: 21px;
-    width: 15%;
-    top: -21px;
-    border-radius: 50px 50px 0px 0px;
+    width: 70%;
+    text-align: right;
 }

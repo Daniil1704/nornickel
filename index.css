@@ -2,9 +2,9 @@
 @import url(./blocks/footer/footer.css);
 @import url(./styles/normalize.css);
 
-/* body, img, h2, div, nav, li{
+body, img, h2, div, nav, li{
     border: 2px solid red;
-} */
+}
 body {
     margin: 0;
     padding: 0;
@@ -12,12 +12,24 @@ body {
 .page {
 
     margin: 0 auto;
-    font-family: Inter,Arial,sans-serif;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1, h3, a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 
-
+.header__name_icon {
+    width: 53px;
+}
+.header__decorate {
+    position: absolute;
+    background: #0080c8;
+    width: 100%;
+    height: 21px;
+    top: -21px;
+    border-radius: 20px 20px 0px 0px;
+}
 
 @media screen and (max-width: 1280px) {
     .header__names {
