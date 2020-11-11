@@ -10,4 +10,5 @@
 @import url(./__menus/header__menus.css);
 .header {
     background-color: #E5E5E5;
+    margin-bottom: 20px;
 }

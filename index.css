@@ -101,7 +101,7 @@ h1, h3, a {
      
         display: none;
     }
-    .header__burger {
+    .header__burger_button {
         display: block;
     }
     .header__menu_headman {
