@@ -96,6 +96,7 @@ h1, h3, a {
 @media screen and (max-width: 735px) {
     .header__burger {
         padding-left: 15px;
+        width: 15%;
     }
     .header__menu_nav {
      
@@ -169,6 +170,9 @@ h1, h3, a {
     margin-right: 5px;
 }
 .header__menu_headman {
-    width: 65%;
+    width: 60%;
+}
+.header__menu_line-up {
+    width: 30%;
 }
 }
