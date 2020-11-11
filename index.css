@@ -31,16 +31,23 @@ h1, h3, a {
     .header__names {
         width: 15%;
     }
+    .header__menu_headman {
+        max-width: 260px;
+    width: 100%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     .header__names {
         width: 25%;
     }
-    .footer__name_help {
-       
+    .footer__name_help {  
         font-size: 8px;
-        }
+    }
+    .header__menu_headman {
+        max-width: 230px;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1025px) {
     
@@ -49,7 +56,10 @@ h1, h3, a {
     }
 }
 @media screen and (max-width: 920px) {
-
+    .header__menu_headman {
+        max-width: 170px;
+        width: 100%;
+    }
 
     .footer__name_help {
         font-size: 7px;
@@ -114,7 +124,10 @@ h1, h3, a {
     .header__menu_name-headman {
         font-size: 16px;
     }
-
+    .header__menu_headman {
+        max-width: 170px;
+        width: 100%;
+    }
     .header__decorate {
         height: 12px;
         top: -12px;
@@ -150,7 +163,8 @@ h1, h3, a {
         font-size: 7px;
     }
     .header__menu_headman {
-        width: 50%;
+        max-width: 150px;
+        width: 100%;
     }
     .header__logo {
         height: 30px;
@@ -173,6 +187,6 @@ h1, h3, a {
     width: 60%;
 }
 .header__menu_line-up {
-    width: 30%;
+    width: 40%;
 }
 }
